@@ -1,0 +1,55 @@
+body
+{
+	background-color: #D5D8DC;
+}
+
+.titulo{
+	display: flex; 
+	justify-content: center;
+	align-items: center; 
+	color: #1A5276;
+	font-family: Helvetica;
+	font-size: 20px;
+}
+
+.contador{ 
+	display: flex; 
+	justify-content: center;
+	align-items: center; 
+	color: black;  
+}
+
+.bloque_1{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	height: 15vh;
+	color: black;
+}
+/*no se si quitar span*/
+span{
+	font-size: 80px;  
+	color: green;
+	font-family: Helvetica;
+}
+ 
+
+button{
+	border-radius: 20px;
+	border: none;
+	cursor: pointer;
+	padding: 10px 20px;
+	margin: 10px;
+	text-transform: uppercase;
+}
+
+.btn_disminuir{
+	background-color: #D2B4DE ;
+}
+.btn_reiniciar{
+	background-color: #EAECEE ;
+}
+.btn_incrementar{
+	background-color: #AED6F1;
+}
